@@ -332,9 +332,9 @@ import ValidationError from "src/components/UIComponents/ValidationError.vue";
 [<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue.jpg" height="80" />](#)
 [<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/json-api.png" height="75" />](#)
 
-| HTML | Vue & Laravel |
-| -- | -- |
-| [![Paper Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/original/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2?ref=vpdpl-readme) |  [![Vue Paper Dashboard Laravel ](https://s3.amazonaws.com/creativetim_bucket/products/404/original/opt_pd_vuelaravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-paper-dashboard-laravel?ref=vpdpl-readme) |
+| HTML | Laravel | Vue & Laravel |
+| -- | -- | -- |
+| [![Paper Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/original/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2?ref=vpdpl-readme) | [![Paper Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/209/original/opt_pd_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-laravel?ref=vpdpl-readme) |  [![Vue Paper Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/404/original/opt_pd_vuelaravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-paper-dashboard-laravel?ref=vpdpl-readme) |
 
 ## Demo
 
@@ -526,9 +526,9 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/vue-paper-dashboard-laravel/issues)
 - **Dashboards:**
 
-| HTML | Vue & Laravel |
-| -- | -- |
-| [![Paper Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/original/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2?ref=vpdpl-readme) |  [![Vue Paper Dashboard Laravel ](https://s3.amazonaws.com/creativetim_bucket/products/404/original/opt_pd_vuelaravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-paper-dashboard-laravel?ref=vpdpl-readme) |
+| HTML | Laravel | Vue & Laravel |
+| -- | -- | -- |
+| [![Paper Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/original/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2?ref=vpdpl-readme) | [![Paper Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/209/original/opt_pd_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-laravel?ref=vpdpl-readme) |  [![Vue Paper Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/404/original/opt_pd_vuelaravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-paper-dashboard-laravel?ref=vpdpl-readme) |
 
 ## Change log
 
