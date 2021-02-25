@@ -544,7 +544,7 @@ We use GitHub Issues as the official bug tracker for the Black Dashboard Laravel
 
 ## Licensing
 
-- Copyright 2020 Creative Tim (https://www.creative-tim.com/?ref=vpdl-readme)
+- Copyright Creative Tim (https://www.creative-tim.com/?ref=vpdl-readme)
 - Licensed under MIT (https://github.com/creativetimofficial/vue-paper-dashboard-laravel/blob/master/LICENSE.md)
 
 ## Useful Links
