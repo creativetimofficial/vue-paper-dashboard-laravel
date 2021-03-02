@@ -1,115 +1,128 @@
 <template>
-  <div class="sidebar"
-       :data-color="backgroundColor"
-       :data-active-color="activeColor">
+  <div
+    class="sidebar"
+    :data-color="backgroundColor"
+    :data-active-color="activeColor"
+  >
     <div class="logo">
-      <a class="simple-text logo-mini"
-         aria-label="sidebar mini logo"
-         href="https://www.creative-tim.com/product/vue-paper-dashboard-laravel">
-          <div class="logo-img">
-              <img :src="logo" alt="">
-          </div>
+      <a
+        class="simple-text logo-mini"
+        aria-label="sidebar mini logo"
+        href="https://www.creative-tim.com/product/vue-paper-dashboard-laravel"
+      >
+        <div class="logo-img">
+          <img :src="logo" alt="" />
+        </div>
       </a>
-      <a class="simple-text logo-normal"
-         href="https://www.creative-tim.com/vue-paper-dashboard-laravel">
-          {{ title }}
+      <a
+        class="simple-text logo-normal"
+        href="https://www.creative-tim.com/vue-paper-dashboard-laravel"
+      >
+        {{ title }}
       </a>
     </div>
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
-      <slot>
-
-      </slot>
+      <slot> </slot>
       <ul class="nav">
         <slot name="links">
-          <sidebar-item v-for="(link, index) in sidebarLinks"
-                        :key="link.name + index"
-                        :link="link">
-
-            <sidebar-item v-for="(subLink, index) in link.children"
-                          :key="subLink.name + index"
-                          :link="subLink">
+          <sidebar-item
+            v-for="(link, index) in sidebarLinks"
+            :key="link.name + index"
+            :link="link"
+          >
+            <sidebar-item
+              v-for="(subLink, index) in link.children"
+              :key="subLink.name + index"
+              :link="subLink"
+            >
             </sidebar-item>
           </sidebar-item>
         </slot>
-
       </ul>
     </div>
   </div>
 </template>
 <script>
-  import 'perfect-scrollbar/css/perfect-scrollbar.css'
-  import Vuex from 'vuex';
-  export default {
-    props: {
-      title: {
-        type: String,
-        default: 'Vue PDP',
-        description: 'Sidebar title'
-      },
-      backgroundColor: {
-        type: String,
-        default: 'black',
-        validator: (value) => {
-          let acceptedValues = ['white', 'brown', 'black']
-          return acceptedValues.indexOf(value) !== -1
-        },
-        description: 'Sidebar background color (white|brown|black)'
-      },
-      activeColor: {
-        type: String,
-        default: 'success',
-        validator: (value) => {
-          let acceptedValues = ['primary', 'info', 'success', 'warning', 'danger']
-          return acceptedValues.indexOf(value) !== -1
-        },
-        description: 'Sidebar active text color (primary|info|success|warning|danger)'
-      },
-      logo: {
-        type: String,
-        default: '/img/laravel-vue.svg',
-        description: 'Sidebar Logo'
-      },
-      sidebarLinks: {
-        type: Array,
-        default: () => [],
-        description: 'Sidebar links. Can be also provided as children components (sidebar-item)'
-      },
-      autoClose: {
-        type: Boolean,
-        default: true
-      }
+import "perfect-scrollbar/css/perfect-scrollbar.css";
+import Vuex from "vuex";
+export default {
+  props: {
+    title: {
+      type: String,
+      default: "Vue PDP",
+      description: "Sidebar title",
     },
-    provide() {
-      return {
-        autoClose: this.autoClose
-      }
+    backgroundColor: {
+      type: String,
+      default: "black",
+      validator: (value) => {
+        let acceptedValues = ["white", "brown", "black"];
+        return acceptedValues.indexOf(value) !== -1;
+      },
+      description: "Sidebar background color (white|brown|black)",
     },
-    methods: {
-      async initScrollBarAsync () {
-        let isWindows = navigator.platform.startsWith('Win');
-        if(!isWindows) {
-          return;
-        }
-        const PerfectScroll = await import('perfect-scrollbar')
-        PerfectScroll.initialize(this.$refs.sidebarScrollArea)
-      }
+    activeColor: {
+      type: String,
+      default: "success",
+      validator: (value) => {
+        let acceptedValues = [
+          "primary",
+          "info",
+          "success",
+          "warning",
+          "danger",
+        ];
+        return acceptedValues.indexOf(value) !== -1;
+      },
+      description:
+        "Sidebar active text color (primary|info|success|warning|danger)",
     },
-    mounted () {
-      this.initScrollBarAsync()
+    logo: {
+      type: String,
+      default: "/img/laravel-vue.svg",
+      description: "Sidebar Logo",
     },
-    beforeDestroy () {
-      if (this.$sidebar.showSidebar) {
-        this.$sidebar.showSidebar = false
+    sidebarLinks: {
+      type: Array,
+      default: () => [],
+      description:
+        "Sidebar links. Can be also provided as children components (sidebar-item)",
+    },
+    autoClose: {
+      type: Boolean,
+      default: true,
+    },
+  },
+  provide() {
+    return {
+      autoClose: this.autoClose,
+    };
+  },
+  methods: {
+    async initScrollBarAsync() {
+      let isWindows = navigator.platform.startsWith("Win");
+      if (!isWindows) {
+        return;
       }
+      const PerfectScroll = await import("perfect-scrollbar");
+      PerfectScroll.initialize(this.$refs.sidebarScrollArea);
+    },
+  },
+  mounted() {
+    this.initScrollBarAsync();
+  },
+  beforeDestroy() {
+    if (this.$sidebar.showSidebar) {
+      this.$sidebar.showSidebar = false;
     }
-  }
-
+  },
+};
 </script>
 <style>
-  @media (min-width: 992px) {
-    .navbar-search-form-mobile,
-    .nav-mobile-menu{
-      display: none;
-    }
+@media (min-width: 992px) {
+  .navbar-search-form-mobile,
+  .nav-mobile-menu {
+    display: none;
   }
+}
 </style>

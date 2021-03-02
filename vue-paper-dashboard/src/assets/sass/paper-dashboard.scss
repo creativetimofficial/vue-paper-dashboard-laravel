@@ -1,15 +1,17 @@
 /*!
 
-  =========================================================
-  * Vue Paper Dashboard 2 PRO - V2.3.0
-  =========================================================
+ =========================================================
+ *  Vue Paper Dashboard Laravel - v1.0.0
+ =========================================================
 
-  * Product Page: https://www.creative-tim.com/product/vue-paper-dashboard-2-pro
-  * Available with purchase of license from https://www.creative-tim.com/product/vue-paper-dashboard-2-pro
-  * Copyright 2019 Creative Tim (https://www.creative-tim.com)
-  * License Creative Tim (https://www.creative-tim.com/license)
+ * Product Page: https://www.creative-tim.com/product/vue-paper-dashboard-laravel
+ * Copyright Creative Tim (http://www.creative-tim.com) & UPDIVISION (https://www.updivision.com)
 
-  =========================================================
+ * Coded by www.creative-tim.com & www.invisionapp.com & www.updivision.com
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
 */
 
 @import 'paper/variables';
@@ -89,3 +91,5 @@
 
 @import 'paper/responsive';
 @import 'paper/media-queries';
+@import "paper/fixed-social-plugin";
+
