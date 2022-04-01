@@ -4,7 +4,7 @@
 
 _Frontend version_: Paper Dashboard v2.0.1. More info at https://www.creative-tim.com/product/paper-dashboard-2
 
-![Product Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-paper-dashboard-laravel/intro.gif)
+![Product Image](https://s3.amazonaws.com/creativetim_bucket/products/404/original/opt_pd_vuelaravel_thumbnail.jpg)
 
 What if your frontend came not only with reusable components, but also with a reusable backend? API-driven development is more than just a buzzword and we partnered with [UPDIVISION](https://updivision.com) to prove it. Build awesome-looking apps with a flexible architecture across a variety of devices and operating systems with Vue Paper Dashboard Laravel. 
 
