@@ -26,6 +26,7 @@
     "google-maps": "^4.2.3",
     "install": "^0.13.0",
     "jsona": "^1.8.0",
+    "minimist": "^1.2.6",
     "moment": "^2.29.1",
     "npm": "^6.14.10",
     "nprogress": "^0.2.0",
