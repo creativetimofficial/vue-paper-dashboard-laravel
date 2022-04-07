@@ -17,7 +17,7 @@
     "@fullcalendar/timegrid": "4.4.2",
     "@fullcalendar/vue": "4.4.0",
     "@types/minimist": "^1.2.2",
-    "axios": "^0.20.0",
+    "axios": "^0.21.2",
     "chart.js": "^2.9.4",
     "core-js": "^3.21.1",
     "d3": "^5.16.0",
