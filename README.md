@@ -69,6 +69,9 @@ Install VueCLI: https://cli.vuejs.org/guide/installation.html
 5. `VUE_APP_API_BASE_URL` should contain the URL of your Laravel JSON:API Project. (eg. http://localhost:3000/api/v1)
 6. Run `npm run dev` to start the application in a local development environment or `npm run build`  to build release distributables.
 
+*Extra Note*
+- use `npx npm@6.14.16 install` if `npm install` failed. Ref: [StackOverflow](https://stackoverflow.com/a/68479189/5033470)
+
 ## Usage
 
 Register a user or login using admin@jsonapi.com and secret and start testing the theme.
