@@ -1,4 +1,4 @@
-# 2 [Vue Paper Dashboard Laravel](https://vue-paper-dashboard-laravel.creative-tim.com/?ref=mdpl-readme)
+# [Vue Paper Dashboard Laravel](https://vue-paper-dashboard-laravel.creative-tim.com/?ref=mdpl-readme)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vue-paper-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-paper-dashboard-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vue-paper-dashboard-laravel/vue-paper-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-paper-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
 
