@@ -162,7 +162,7 @@ module.exports = {
     nav: [
       { text: 'API Docs', link: 'https://explore.postman.com/api/6357/laravel-jsonapi' },
       { text: 'Upgrade to PRO', link: 'https://www.creative-tim.com/product/vue-paper-dashboard-pro-laravel' },
-      { text: 'Live Preview', link: 'https://demos.creative-tim.com/vue-paper-dashboard-laravel' },
+      { text: 'Live Preview', link: 'https://vue-paper-dashboard-laravel.creative-tim.com/' },
       { text: 'Download now', link: 'https://www.creative-tim.com/product/vue-paper-dashboard-laravel' },
     ],
   }
